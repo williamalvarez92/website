@@ -7,7 +7,7 @@ import github from '../Images/github.png'
 const Contact = () => {
   return (
     <>
-      <h1 className='text-center m-5'>Dont be shy and let&apos;s talk!</h1>
+      <h1 className='text-center m-5'>Don&apos;t be shy and let&apos;s talk!</h1>
       <div className='container boxes d-flex justify-content-between p-5'>
         <div className='grid-container p-5 text-center text-white bg-dark'>
           <img title='Made by https://www.freepik.com' src={phone} className='grid-item text-center mb-5'/>
