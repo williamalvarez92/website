@@ -1,5 +1,14 @@
+
 .boxes {
   img{
     max-width: 70px;
   }
+}
+
+@media (max-width: 380px) {
+  .contact{
+    flex-direction: column;
+    justify-content: space-around;
   }
+  
+}

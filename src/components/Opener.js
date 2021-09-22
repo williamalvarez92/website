@@ -6,7 +6,7 @@ const Opener = () => {
   return (
     <>
       <div className='container opener'>
-        <div className='position-static text-center p-5'>
+        <div className='text-center p-5'>
           <h1>Welcome to my website!</h1>
           <p><img src={img}/></p>
           <button className='btn-dark btn-lg'>
