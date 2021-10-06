@@ -1,8 +1,7 @@
 
-{ "homepage": "https://williamalvarez92.github.io/website/",
-  "name": "website",
+{"name": "website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "boostrap": "^2.0.0",
     "bootstrap": "^5.1.0",
