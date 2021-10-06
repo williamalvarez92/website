@@ -16,7 +16,7 @@ const App = () => {
     <>
       <BrowserRouter>
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/website'>
             <Opener />
           </Route>
           <Route exact path='/home'>
