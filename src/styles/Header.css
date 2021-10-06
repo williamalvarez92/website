@@ -1,0 +1,29 @@
+.navbar h1 {
+  padding-left: 30%;
+}
+
+.navbar a {
+  color: azure;
+  text-decoration: none;
+}
+
+.navbar .container {
+  margin-right: 0;
+}
+
+@media (max-width: 380px) {
+  .container.navi.justify-content-end {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .navbar h1 {
+    margin: 0;
+    padding: 0%;
+  }
+  .navbar .navi {
+    margin: 0;
+    padding: 0%;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

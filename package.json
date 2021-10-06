@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "WAWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:williamalvarez92/website.git",
+  "author": "William <guillermoalvarez92@hotmail.com>",
+  "license": "MIT"
 }

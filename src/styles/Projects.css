@@ -1,0 +1,19 @@
+.projectPage img {
+  max-width: 80px;
+}
+
+.projectPage a {
+  text-decoration: none;
+  color: black;
+}
+
+.projectPage a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.carousel {
+  max-width: 400px;
+  background-color: gray;
+}
+/*# sourceMappingURL=Projects.css.map */

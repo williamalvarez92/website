@@ -1,0 +1,16 @@
+.boxes img {
+  max-width: 70px;
+}
+
+@media (max-width: 380px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 80px;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */
