@@ -1,16 +1,28 @@
-.navbar-bar{
-    img{
-      max-width: 40px;
-      max-height: 40px;
-    }
+.navbar{
+  h1{
+    padding-left: 30%;
+  }
     a{
           color: azure;
           text-decoration: none;
-        }}
-// .nav{
-// min-width: 600px;
-// max-width: none;
-// }
-// 
-//   
-// }
+        }
+      .container{ margin-right: 0;}
+      }
+
+    @media (max-width: 380px)
+    {
+      .container.navi.justify-content-end{
+        justify-content: center !important;
+      }
+      .navbar{
+        h1{
+          margin: 0;
+          padding: 0%;
+        }
+        .navi{
+          margin: 0;
+          padding: 0%;
+        }
+            } 
+    }
+

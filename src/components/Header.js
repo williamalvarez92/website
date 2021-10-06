@@ -1,26 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img from '../Images/coder1.png'
+
 
 const Header = () => {
   return (
-    <div className='container-fluid p-0'>
-      <nav className="navbar-bar nav d-flex justify-content-around bg-dark bg-gradient">
-        <div className='  navbar-brand text-white'>
-          <Link to='/'><img src={img} />
-          </Link></div>
-        <div className=' m-2 navbar-item text-white'>
-          <Link to='/home'>Home
-          </Link></div>
-        <div className=' m-2 navbar-item text-white'>
-          <Link to='/projects'>Projects
-          </Link></div>
-        <div className=' m-2 navbar-item text-white'>
-          <Link to='/contact'>Contact me
-          </Link></div>
-      </nav>
-    </div>
+    <nav className="navbar navbar-expand-lg justify-content-center navbar-dark bg-dark">
+      <Link to='/'><div className=' navbar-brand text-white'>
+        <h1 className='m-2 navbar-brand text-white'>WA</h1>
+      </div></Link>
+      <div className='container navi justify-content-end'>
+        <Link to='/home'><div className=' m-3 navbar-item text-white'>
+          Home
+        </div></Link>
+        <Link to='/projects'><div className=' m-3 navbar-item text-white'>
+          Projects
+        </div></Link>
+        <Link to='/contact'> <div className=' m-3 navbar-item text-white'>
+          Contact me
+        </div></Link>
+      </div>
+    </nav> 
   )
 }
 
 export default Header
+

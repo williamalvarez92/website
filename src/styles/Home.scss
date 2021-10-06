@@ -1,25 +1,32 @@
 .home{
+  .photo{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+
+  }
+  span{
+    color: rgb(11, 110, 240);
+  }
+  .emoji {
+    display: inline-block;
+    animation: rotate 1.5s ease-in-out infinite;
+  }
+  
+
 }
-.home div{
-  border: 5px solid black;
-  border-radius: 10%;
-  animation: pulse 2s infinite;
+
+.story{
+  h5{
+    padding: 0 15% 0 15%;
+  }
+  
 }
 
-
-@keyframes pulse {
-	0% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-	}
-
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
-	}
-
-	100% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
-	}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(20deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(20deg); }
+  100% { transform: rotate(0deg);}
 }

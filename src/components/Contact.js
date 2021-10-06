@@ -6,7 +6,7 @@ import github from '../Images/github.png'
 
 const Contact = () => {
   return (
-    <div className='container mt-5'>
+    <div className='container'>
       <h2 className='text-center m-5'>Don&apos;t be shy and let&apos;s talk!</h2>
       <div className='d-flex contact justify-content-around'>
         <div className='boxes p-3 grid-container text-center text-white bg-dark'>

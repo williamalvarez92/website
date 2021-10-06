@@ -1,8 +1,23 @@
-.projectFolder {
+.projectPage {
   
-    a{
-      text-decoration: none;
-      color: black;
-      font-size: 25px;
-    }
+  img{
+    max-width: 80px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    text-decoration: none;
+    color: black;
+  }
+}
+.carousel {
+  max-width: 400px;
+  background-color: gray;
+
+  h3, p{
+
+  }
+  
 }
