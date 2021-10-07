@@ -19,32 +19,32 @@ const App = () => {
           <Route exact path='/website'>
             <Opener />
           </Route>
-          <Route exact path='/home'>
+          <Route exact path='/website/home'>
             <Header />
             <Home />
             <Footer />
           </Route>
-          <Route  exact path='/projects'>
+          <Route  exact path='/website/projects'>
             <Header />
             <Projects />
             <Footer />
           </Route>
-          <Route exact path='/contact'>
+          <Route exact path='/website/contact'>
             <Header />
             <Contact />
             <Footer />
           </Route>
-          <Route exact path='/general_assembly'>
+          <Route exact path='/website/projects/general_assembly'>
             <Header />
             <GeneralAssembly />
             <Footer />
           </Route>
-          <Route exact path='/personal_projects'>
+          <Route exact path='/website/projects/personal_projects'>
             <Header />
             <PersonalProjects />
             <Footer />
           </Route>
-          <Route exact path='/small_projects'>
+          <Route exact path='/website/projects/small_projects'>
             <Header />
             <SmallProjects />
             <Footer />
