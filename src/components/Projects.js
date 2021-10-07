@@ -67,19 +67,19 @@ const Projects = () => {
       <div className='m-5 projectPage'>
         <h1 className='text-center m-5'>Archives</h1>
         <div className='grid-container d-flex justify-content-around '>
-          <Link to='/general_assembly'>
+          <Link to='/projects/general_assembly'>
             <div className='text-center grid-item'>
               <img src={closed} onMouseOut={out} onMouseOver={over}/>
               <p className='text-center'>General Assembly</p>
             </div>
           </Link>
-          <Link to='/personal_projects'>
+          <Link to='/projects/personal_projects'>
             <div className='text-center grid-item'>
               <img src={closed} onMouseOut={out} onMouseOver={over}/>
               <p className='text-center'>Personal Projects</p>
             </div>
           </Link>
-          <Link to='/small_projects'>
+          <Link to='/projects/small_projects'>
             <div className='text-center grid-item'>
               <img src={closed} onMouseOut={out} onMouseOver={over}/>
               <p className='text-center'>Small Projects</p>
