@@ -7,7 +7,7 @@ const Home = () => {
       <div className='m-5 d-flex justify-content-center '>
         <div className='container '>
           <h3 className='m-5 text-center'>Hi! <span className='emoji'>👋</span></h3>
-          <h3 className='m-4 text-center'>I&apos;m <span>Willliam Alvarez</span></h3>
+          <h3 className='m-4 text-center'>I&apos;m <span>William Alvarez</span></h3>
           <h3 className='m-1 text-center'>your friendly neighbourhood full stack developer</h3>
         </div>
         <img src={img} className='photo'/>
