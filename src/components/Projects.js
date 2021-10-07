@@ -24,38 +24,43 @@ const Projects = () => {
       <div className='d-flex justify-content-center'>
         <Carousel >
           <Carousel.Item interval={1000}>
-            <img
-              className="d-block w-100"
-              src={img}
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>JavaScrip Space Invaders</h3>
-              <p>Created the classic with JavaScrip, CSS and HTML.</p>
-            </Carousel.Caption>
+            <a rel='noreferrer' target='_blank' href='https://williamalvarez92.github.io/Space-Invaders/'>
+              <img
+                className="d-block w-100"
+                src={img}
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3>JavaScrip Space Invaders</h3>
+                <p>Created the classic with JavaScrip, CSS and HTML.</p>
+              </Carousel.Caption>
+            </a>
           </Carousel.Item>
-          <Carousel.Item interval={500  }>
-            <img
-              className="d-block w-100"
-              src={tube}
-              alt="Second slide"
-            />
-            <Carousel.Caption>
-              <h3>London Tube API</h3>
-              <p>A live Underground Lines status API, using React and Boostrap.</p>
-            </Carousel.Caption>
+          <Carousel.Item interval={500}>
+            <a rel='noreferrer' target='_blank' href='https://williamalvarez92.github.io/Tfl-API/'>
+              <img
+                className="d-block w-100"
+                src={tube}
+                alt="Second slide"
+              />
+              <Carousel.Caption>
+                <h3>London Tube API</h3>
+                <p>A live Underground Lines status API, using React and Boostrap.</p>
+              </Carousel.Caption>
+            </a>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={cat}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Catopedia</h3>
-              <p>The Cat enciclopedia, using a public API, React and Boostrap.</p>
-            </Carousel.Caption>
+            <a rel='noreferrer' target='_blank' href='https://catopedia-britannica.netlify.app/'>
+              <img
+                className="d-block w-100"
+                src={cat}
+                alt="Third slide"
+              />
+              <Carousel.Caption>
+                <h3>Catopedia</h3>
+                <p>The Cat enciclopedia, using a public API, React and Boostrap.</p>
+              </Carousel.Caption>
+            </a>
           </Carousel.Item>
         </Carousel>
       </div>
