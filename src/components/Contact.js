@@ -2,11 +2,11 @@ import React from 'react'
 import phone from '../Images/phone.png'
 import mail from '../Images/email.png'
 import social from '../Images/user.png'
-import github from '../Images/github.png'
+import github from '../Images/github.png' 
 
 const Contact = () => {
   return (
-    <div className='container'>
+    <div className='container contact'>
       <h2 className='text-center m-5'>Don&apos;t be shy and let&apos;s talk!</h2>
       <div className='d-flex contact justify-content-around'>
         <div className='boxes p-3 grid-container text-center text-white bg-dark'>
