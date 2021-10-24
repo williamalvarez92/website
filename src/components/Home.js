@@ -17,7 +17,7 @@ const Home = () => {
         <div><h5 className='text-center'>An &quot;all in one&quot; full stack developer based in beautiful London in the UK. William can bring to life any virtual dream.</h5></div>
         <div><h5 className='text-center'>An amateur rower who is also a gamer. Loves to travel and discover new experiences every single day.</h5></div>
       </div>
-      <div className='container m-2 p-3'>
+      <div className='container m-4 p-3'>
         <h4 className='text-center m-3'>He is confident using:  </h4>
         <div className="container grid row">
           <div>
@@ -51,10 +51,6 @@ const Home = () => {
             </div>           
           </div>
         </div>
-      </div>
-      <div>
-        <h4>Where has he been in the past?</h4>
-        <h4>Here</h4>
       </div>
     </div>
   )

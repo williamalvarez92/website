@@ -1,5 +1,8 @@
 .contact{
-  margin-top: 8%;
+  margin-top: 5%;
+}
+.maincontact{
+  margin-top: 15%;
 }
 .boxes {
   img{
@@ -8,10 +11,14 @@
 }
 
 @media (max-width: 380px) {
-  .contact{
+  .maincontact{
     flex-direction: column;
     justify-content: space-around;
-    margin: 0% 25% 15% 25%
+    margin: 45% 25% 15% 25%;
+    .contact{
+      flex-direction: column;
+      justify-content: space-around;
+    }
   }
   
 }

@@ -5,8 +5,8 @@ import img from '../Images/logo.png'
 const Opener = () => {
   return (
     <>
-      <div className='container p-5 opener'>
-        <div className='text-center mt-5'>
+      <div className='container opener'>
+        <div className='text-center'>
           <img src={img}/><br/>
           <Link to='/home'><button className='btn-dark btn'>
             ENTER
