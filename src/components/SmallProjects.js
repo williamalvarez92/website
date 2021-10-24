@@ -3,7 +3,7 @@ import React from 'react'
 const SmallProjects = () => {
   return (
     <>
-      <h1>Small Projects</h1>
+      <h1 className='construction'>🚧Page Under Contruction🚧</h1>
     </>
   )
 }

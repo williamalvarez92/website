@@ -6,8 +6,8 @@ const Home = () => {
     <div className='container pb-4 home'>
       <div className='m-5 d-flex justify-content-center '>
         <div className='container '>
-          <h3 className='m-5 text-center'>Hi! <span className='emoji'>👋</span></h3>
-          <h3 className='m-4 text-center'>I&apos;m <span>William Alvarez</span></h3>
+          <h3 className='mt-5 text-center'>Hi! <span className='emoji'>👋</span></h3>
+          <h3 className='m-2 text-center'>I&apos;m <span>William Alvarez</span></h3>
           <h3 className='m-1 text-center'>your friendly neighbourhood full stack developer</h3>
         </div>
         <img src={img} className='photo'/>
@@ -18,7 +18,7 @@ const Home = () => {
         <div><h5 className='text-center'>An amateur rower who is also a gamer. Loves to travel and discover new experiences every single day.</h5></div>
       </div>
       <div className='container m-2 p-3'>
-        <h4 className='text-center m-3'>His skills</h4>
+        <h4 className='text-center m-3'>He is confident using:  </h4>
         <div className="container grid row">
           <div>
             <div className="">HTML</div>
@@ -51,7 +51,11 @@ const Home = () => {
             </div>           
           </div>
         </div>
-      </div>  
+      </div>
+      <div>
+        <h4>Where has he been in the past?</h4>
+        <h4>Here</h4>
+      </div>
     </div>
   )
 }

@@ -1,5 +1,11 @@
+.projecthome{
+  margin-top: 7%;
+}
+
+.construction{
+  margin: 20% 15% 0% 32%;
+}
 .projectPage {
-  
   img{
     max-width: 80px;
   }
@@ -15,9 +21,11 @@
 .carousel {
   max-width: 400px;
   background-color: gray;
-
-  h3, p{
-
-  }
   
+}
+
+@media (max-width: 380px){
+  .construction{
+    margin: 50% 15% 0% 25%;
+    }
 }

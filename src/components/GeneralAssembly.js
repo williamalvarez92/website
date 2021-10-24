@@ -2,12 +2,9 @@ import React from 'react'
 
 
 const GeneralAssembly = () => {
-  
-  
-  return (  
-    
+  return (
     <>
-      <h1>GA Projects</h1>
+      <h1 className='construction'>🚧Page Under Contruction🚧</h1>
     </>
   )
   

@@ -1,4 +1,5 @@
 .home{
+  margin-top: 10%;
   .photo{
     border-radius: 50%;
     width: 50%;
@@ -30,3 +31,18 @@
   75% { transform: rotate(20deg); }
   100% { transform: rotate(0deg);}
 }
+
+@media (max-width: 380px) {
+  .home{
+    margin-top: 30%;
+  }
+  .photo{
+    margin-top: 30%;
+  }
+  .story{
+    h5{
+      font-size: 13px;
+    }
+    
+  }
+  }

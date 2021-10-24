@@ -20,8 +20,8 @@ const Projects = () => {
   return (
     
     <>
-      <h1 className='text-center m-5'>Projects</h1>
-      <div className='d-flex justify-content-center'>
+      <h1 className='projecthome text-center'>Projects</h1>
+      <div className='d-flex justify-content-center mt-4'>
         <Carousel >
           <Carousel.Item interval={1000}>
             <a rel='noreferrer' target='_blank' href='https://williamalvarez92.github.io/Space-Invaders/'>
@@ -50,7 +50,7 @@ const Projects = () => {
             </a>
           </Carousel.Item>
           <Carousel.Item>
-            <a rel='noreferrer' target='_blank' href='https://catopedia-britannica.netlify.app/'>
+            <a rel='noreferrer' target='_blank' href='https://williamalvarez92.github.io/Cat-app/'>
               <img
                 className="d-block w-100"
                 src={cat}
@@ -67,13 +67,13 @@ const Projects = () => {
       <div className='m-5 projectPage'>
         <h1 className='text-center m-5'>Archives</h1>
         <div className='grid-container d-flex justify-content-around '>
-          <Link to='website/projects/general_assembly'>
+          <Link to='/website/projects/general_assembly'>
             <div className='text-center grid-item'>
               <img src={closed} onMouseOut={out} onMouseOver={over}/>
               <p className='text-center'>General Assembly</p>
             </div>
           </Link>
-          <Link to='website/projects/personal_projects'>
+          <Link to='/website/projects/personal_projects'>
             <div className='text-center grid-item'>
               <img src={closed} onMouseOut={out} onMouseOver={over}/>
               <p className='text-center'>Personal Projects</p>
