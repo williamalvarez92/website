@@ -8,7 +8,7 @@ const Opener = () => {
       <div className='container p-5 opener'>
         <div className='text-center mt-5'>
           <img src={img}/><br/>
-          <Link to='/website/home'><button className='btn-dark btn'>
+          <Link to='/home'><button className='btn-dark btn'>
             ENTER
           </button></Link>
         </div>
