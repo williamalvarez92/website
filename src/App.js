@@ -16,35 +16,35 @@ const App = () => {
     <>
       <BrowserRouter>
         <Switch>
-          <Route exact path='/website'>
+          <Route exact path='/'>
             <Opener />
           </Route>
-          <Route exact path='/website/home'>
+          <Route exact path='/home'>
             <Header />
             <Home />
             <Footer />
           </Route>
-          <Route  exact path='/website/projects'>
+          <Route  exact path='/projects'>
             <Header />
             <Projects />
             <Footer />
           </Route>
-          <Route exact path='/website/contact'>
+          <Route exact path='/contact'>
             <Header />
             <Contact />
             <Footer />
           </Route>
-          <Route exact path='/website/projects/general_assembly'>
+          <Route exact path='/projects/general_assembly'>
             <Header />
             <GeneralAssembly />
             <Footer />
           </Route>
-          <Route exact path='/website/projects/personal_projects'>
+          <Route exact path='/projects/personal_projects'>
             <Header />
             <PersonalProjects />
             <Footer />
           </Route>
-          <Route exact path='/website/projects/small_projects'>
+          <Route exact path='/projects/small_projects'>
             <Header />
             <SmallProjects />
             <Footer />
