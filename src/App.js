@@ -16,35 +16,35 @@ const App = () => {
     <>
       <BrowserRouter>
         
-        <Route exact path='/'>
+        <Route path='/'>
           <Opener />
         </Route>
-        <Route exact path='/home'>
+        <Route path='/home'>
           <Header />
           <Home />
           <Footer />
         </Route>
-        <Route  exact path='/projects'>
+        <Route  path='/projects'>
           <Header />
           <Projects />
           <Footer />
         </Route>
-        <Route exact path='/contact'>
+        <Route path='/contact'>
           <Header />
           <Contact />
           <Footer />
         </Route>
-        <Route exact path='/projects/general_assembly'>
+        <Route path='/projects/general_assembly'>
           <Header />
           <GeneralAssembly />
           <Footer />
         </Route>
-        <Route exact path='/projects/personal_projects'>
+        <Route path='/projects/personal_projects'>
           <Header />
           <PersonalProjects />
           <Footer />
         </Route>
-        <Route exact path='/projects/small_projects'>
+        <Route path='/projects/small_projects'>
           <Header />
           <SmallProjects />
           <Footer />
