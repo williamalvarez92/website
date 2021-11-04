@@ -16,7 +16,7 @@ const App = () => {
     <>
       <BrowserRouter>
         
-        <Route path='/'>
+        <Route exact path='/'>
           <Opener />
         </Route>
         <Route path='/home'>
@@ -24,7 +24,7 @@ const App = () => {
           <Home />
           <Footer />
         </Route>
-        <Route  path='/projects'>
+        <Route exact path='/projects'>
           <Header />
           <Projects />
           <Footer />
@@ -33,7 +33,7 @@ const App = () => {
           <Header />
           <Contact />
           <Footer />
-        </Route>
+        </Route> 
         <Route path='/projects/general_assembly'>
           <Header />
           <GeneralAssembly />
