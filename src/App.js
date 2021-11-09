@@ -6,6 +6,7 @@ import Opener from './components/Opener'
 import Home from './components/Home'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Main from './components/main'
 import GeneralAssembly from './components/GeneralAssembly'
 import PersonalProjects from './components/PersonalProjects'
 import SmallProjects from './components/SmallProjects'
@@ -15,7 +16,6 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        
         <Route exact path='/'>
           <Opener />
         </Route>
@@ -47,6 +47,11 @@ const App = () => {
         <Route path='/projects/small_projects'>
           <Header />
           <SmallProjects />
+          <Footer />
+        </Route>
+        <Route exact path='/test/'>
+          <Header />
+          <Main />
           <Footer />
         </Route>
         

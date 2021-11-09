@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  background: linear-gradient(to right, black, black);
+}
+
+/* -------------------- HEADER ------------------- */
+
+.header {
+  width: 50%;
+  padding: 0;
+}
+.header a {
+  padding-top: 3%;
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    text-decoration: none;
+    color: azure;
+}
+.header ul li {
+  
+  margin: 0;
+  display: inline;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.underline { 
+  width: 25%;
+  border-radius: 50%;
+  border-bottom: 5px solid #1155cc;
+  transition: .4s ease-in-out;
+  
+}
+.one:hover a, .two:hover a, .three:hover a, .four:hover a, .fives:hover a {
+color: azure;
+}
+.two:hover ~ .underline {
+  margin-left: 25%;
+  border-bottom: 5px solid #1155cc;
+}
+.three:hover ~ .underline {
+  margin-left: 50%;
+  border-bottom: 5px solid #1155cc;
+}
+.four:hover ~ .underline {
+  margin-left: 75%;
+  border-bottom: 5px solid #1155cc;
+}
+
+@media (max-width: 380px) {
+  .header {
+    width: 100%;
+    font-size: 12px;
+  }
+  .header ul {
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+.star {
+  background: url(../Images/stars.png) repeat top center;
+  z-index: 0;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  position: absolute;
+  animation: 400s twinkle linear infinite;
+}
+
+/*Moving stars */
+@keyframes twinkle {
+  from { background-position: 0 0;}
+  to {background-position: -2000px 5000px;}
+}
+
+.hugebox{
+  height: 200px;
+}
