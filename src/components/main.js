@@ -116,11 +116,72 @@ const Main = () => {
           </div>
         </div>
         <div className='section'>
-          <div><h2 className='normal-text'>PROJECTS</h2></div>
+          <div><h2 id='projects' className='normal-text'>PROJECTS</h2></div>
           <div className='generalwrapper'>
-            <div className='normal-text'>
-              <div className='icons'>
-                <Skills />
+            <h2>PROJECT 1</h2>
+            <div className='project'>
+              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
+              <div>
+                <p>Here is the bla bla</p>
+                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
+                <button>CLICK</button>
+                <button>CLICK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='section'>
+          <div className='generalwrapper'>
+            <h2>PROJECT 1</h2>
+            <div className='project'>
+              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
+              <div>
+                <p>Here is the bla bla</p>
+                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
+                <button>CLICK</button>
+                <button>CLICK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='section'>
+          <div className='generalwrapper'>
+            <h2>PROJECT 1</h2>
+            <div className='project'>
+              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
+              <div>
+                <p>Here is the bla bla</p>
+                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
+                <button>CLICK</button>
+                <button>CLICK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='section'>
+          <div className='generalwrapper'>
+            <h2>PROJECT 1</h2>
+            <div className='project'>
+              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
+              <div>
+                <p>Here is the bla bla</p>
+                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
+                <button>CLICK</button>
+                <button>CLICK</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='section'>
+          <div className='generalwrapper'>
+            <h2>PROJECT 1</h2>
+            <div className='project'>
+              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
+              <div>
+                <p>Here is the bla bla</p>
+                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
+                <button>CLICK</button>
+                <button>CLICK</button>
               </div>
             </div>
           </div>

@@ -118,20 +118,7 @@ body {
 }
 
 /* ----------------------HOME----------------------- */
-.icons {
-  margin: 5%;
-}
-.icons a  {
-  margin: 5%;
-  z-index: 6;
-}
-.icons img {
-  width: 8%;
-}
-svg {
-  margin: 2%;
-  width: 8%;
-}
+
 .main-title {
   margin-top: 2;
   display: flex;
@@ -150,7 +137,6 @@ svg {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .nameintro {
   font-size: 45px;
   margin-top: 5%;
@@ -196,7 +182,28 @@ svg {
   margin: 3%;
 }
 
+/* ----------------------SKILLS--------------------- */
+.icons {
+  margin: 5%;
+}
+.icons a  {
+  margin: 5%;
+  z-index: 6;
+}
+.icons img {
+  width: 8%;
+}
+svg {
+  margin: 2%;
+  width: 8%;
+}
 
+/* ---------------------- PROJECTS -------------------- */
+
+.project{
+  display: flex;
+  flex-direction: row;
+}
 
 /* ---------------MEDIA FOR PHONE/XL Phones MAX 420px ------------------ */
 
