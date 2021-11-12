@@ -126,9 +126,10 @@ const Main = () => {
                 <p>Created the classic with JavaScrip, CSS and HTML.</p>
                 <div className='d-flex skillsused column'><span>HTML</span><span>CSS</span><span>JavaScript</span></div> 
                 <div className='buttons'>
-                  <div><button className="btn btn-secondary">REPO</button></div>
+                  <div><button className="btn btn-secondary"><a target='_blank' rel='noreferrer' href='https://github.com/williamalvarez92/Space-Invaders'>REPO</a></button></div>
                   <div className='p-2'></div>
-                  <div><button className="btn btn-warning ">PLAY</button></div>                </div>
+                  <div><button className="btn btn-warning "><a target='_blank' rel='noreferrer' href='https://williamalvarez92.github.io/Space-Invaders/'>PLAY</a></button></div>                
+                </div>
               </div>
             </div>
           </div>
@@ -144,9 +145,9 @@ const Main = () => {
                   <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div>
                 </div> 
                 <div className='buttons'>
-                  <div><button className="btn btn-secondary">REPO</button></div>
+                  <div><button className="btn btn-secondary"><a  target='_blank' rel='noreferrer'href='https://github.com/williamalvarez92/Catopedia'>REPO</a></button></div>
                   <div className='p-2'></div>
-                  <div><button className="btn btn-warning ">PLAY</button></div>
+                  <div><button className="btn btn-warning "><a target='_blank' rel='noreferrer' href='https://williamalvarez92.github.io/Catopedia/'>VISIT</a></button></div>
                 </div>
               </div>
               <img id='rightpic' src={project2}/>
