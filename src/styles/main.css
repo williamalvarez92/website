@@ -155,6 +155,7 @@
   }
 
   .generalwrapper p{
+    color: azure;
     font-size: 20px ;
     display: flex;
     flex-direction: column;
@@ -181,6 +182,8 @@
     margin: 5%;
   }
   .icons a  {
+    text-decoration: none;
+    color: azure;
     margin: 5%;
     z-index: 6;
   }
@@ -190,6 +193,10 @@
   svg {
     margin: 2%;
     width: 8%;
+  }
+  .devicon-codepen-plain {
+    width: 500px;
+    height: 50px;
   }
 
   /* ---------------------- PROJECTS -------------------- */
@@ -291,6 +298,17 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .formemail{
+    width: 30%;
+    border-radius: 10px;
+    height: 40px;
+  }
+  .formtext{
+    width: 30%;
+    border-radius: 10px;
+    height: 90px;
   }
   
 
