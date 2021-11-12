@@ -22,6 +22,7 @@ function ContactForm() {
           field="email"
           errors={state.errors}
         />
+        <br/>
         <label className='text-white'>
           Message</label>
         <textarea
