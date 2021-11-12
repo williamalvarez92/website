@@ -124,7 +124,9 @@ const Main = () => {
               <img src={project1}/>
               <div className='introproject'>
                 <p>Created the classic with JavaScrip, CSS and HTML.</p>
-                <div className='d-flex skillsused column'><span>HTML</span><span>CSS</span><span>JavaScript</span></div> 
+                <div id='skillsused'>
+                  <div>HTML</div><div>CSS</div><div>JavaScript</div>
+                </div> 
                 <div className='buttons'>
                   <div><button className="btn btn-secondary"><a target='_blank' rel='noreferrer' href='https://github.com/williamalvarez92/Space-Invaders'>REPO</a></button></div>
                   <div className='p-2'></div>

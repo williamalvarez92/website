@@ -248,6 +248,14 @@
     justify-content: space-between;
     align-items: center; 
   }
+
+  .introproject .buttons a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+  }
+  
   .section{
     margin-top: 10%;
     display: flex;
