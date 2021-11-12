@@ -133,7 +133,7 @@ const Main = () => {
             <div className='project'>
               <img src={project1}/>
               <div className='introproject'>
-                <p>Created the classic with JavaScrip, CSS and HTML.</p>
+                <p>Created the classic with JavaScript, CSS and HTML.</p>
                 <div id='skillsusedp1'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div>
                 </div> 
@@ -152,7 +152,7 @@ const Main = () => {
             <div className='project'>
               <img id='leftpic' src={project2}/>
               <div className='introproject'>
-                <p>The Cat enciclopedia, using a public API, React and Bootstrap.</p>
+                <p>The Cat encyclopedia, using a public API, React and Bootstrap.</p>
                 <div id='skillsused'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div>
                 </div> 
