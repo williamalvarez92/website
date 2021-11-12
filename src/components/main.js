@@ -124,7 +124,7 @@ const Main = () => {
               <img src={project1}/>
               <div className='introproject'>
                 <p>Created the classic with JavaScrip, CSS and HTML.</p>
-                <div id='skillsused'>
+                <div id='skillsusedp1'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div>
                 </div> 
                 <div className='buttons'>
