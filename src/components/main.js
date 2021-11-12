@@ -1,7 +1,8 @@
 import React from 'react'
 import profilePic from '../Images/photo.jpg'
 import Skills from './skills'
-
+import project1 from '../Images/project1.gif'
+import project2 from '../Images/project2.gif'
 
 
 const Main = () => {
@@ -105,7 +106,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className='section'>
+        <div className='skills'>
           <div><h2 className='normal-text'>SKILLS</h2></div>
           <div className='generalwrapper'>
             <div className='normal-text'>
@@ -118,72 +119,66 @@ const Main = () => {
         <div className='section'>
           <div><h2 id='projects' className='normal-text'>PROJECTS</h2></div>
           <div className='generalwrapper'>
-            <h2>PROJECT 1</h2>
+            <h2 className='text-white mt-4' >SPACE-INVADERS</h2>
             <div className='project'>
-              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
-              <div>
-                <p>Here is the bla bla</p>
-                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
-                <button>CLICK</button>
-                <button>CLICK</button>
+              <img src={project1}/>
+              <div className='introproject'>
+                <p>Created the classic with JavaScrip, CSS and HTML.</p>
+                <div className='d-flex skillsused column'><span>HTML</span><span>CSS</span><span>JavaScript</span></div> 
+                <div className='buttons'>
+                  <div><button className="btn btn-secondary">REPO</button></div>
+                  <div className='p-2'></div>
+                  <div><button className="btn btn-warning ">PLAY</button></div>                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className='section'>
+        <div className='insection'>
           <div className='generalwrapper'>
-            <h2>PROJECT 1</h2>
+            <h2 className='text-white mt-4' >CATOPEDIA</h2>
             <div className='project'>
-              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
-              <div>
-                <p>Here is the bla bla</p>
-                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
-                <button>CLICK</button>
-                <button>CLICK</button>
+              <img id='leftpic' src={project2}/>
+              <div className='introproject'>
+                <p>The Cat enciclopedia, using a public API, React and Bootstrap.</p>
+                <div id='skillsused'>
+                  <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div>
+                </div> 
+                <div className='buttons'>
+                  <div><button className="btn btn-secondary">REPO</button></div>
+                  <div className='p-2'></div>
+                  <div><button className="btn btn-warning ">PLAY</button></div>
+                </div>
               </div>
+              <img id='rightpic' src={project2}/>
             </div>
           </div>
         </div>
-        <div className='section'>
+        
+        <div className='section' id='contact'>
+          <div><h2 className='normal-text'>CONTACT</h2></div>
           <div className='generalwrapper'>
-            <h2>PROJECT 1</h2>
-            <div className='project'>
-              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
-              <div>
-                <p>Here is the bla bla</p>
-                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
-                <button>CLICK</button>
-                <button>CLICK</button>
-              </div>
+            <div className=' contact'>
+              <p>Email <span>williamalvarez672@gmail.com</span></p>
+              <p>Phone <span>07459526933</span></p>
+              <p>Linkedin <span>williamalvarez92</span></p>
+              <p>GitHub <span> williamalvarez92</span></p>
             </div>
-          </div>
-        </div>
-        <div className='section'>
-          <div className='generalwrapper'>
-            <h2>PROJECT 1</h2>
-            <div className='project'>
-              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
-              <div>
-                <p>Here is the bla bla</p>
-                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
-                <button>CLICK</button>
-                <button>CLICK</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='section'>
-          <div className='generalwrapper'>
-            <h2>PROJECT 1</h2>
-            <div className='project'>
-              <div><img src='http://localhost:3000/static/media/photo.a731b452.jpg'/></div>
-              <div>
-                <p>Here is the bla bla</p>
-                <div className='d-flex column'><span>CSS</span><span>CSS</span></div> 
-                <button>CLICK</button>
-                <button>CLICK</button>
-              </div>
-            </div>
+            <p className='text-white'>Or fill the form and leave a message</p>
+            <form
+              className='insection text-dark'
+              action="https://formspree.io/f/xbjqnlow"
+              method="POST"
+            >
+              <label className='text-white'>
+                Your email:
+                <input type="email" name="_replyto" className="form-control"/>
+              </label>
+              <label className='text-white'>
+                Your message:
+                <textarea name="message" className="form-control"></textarea>
+              </label>
+              <button type="submit" className="btn m-3 btn-primary">Send</button>
+            </form>
           </div>
         </div>
       </div>
