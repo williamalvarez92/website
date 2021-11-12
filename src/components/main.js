@@ -111,7 +111,8 @@ const Main = () => {
               <p>I build and develop code and algorithms for those who need help with their software.</p>
               <p>Settled in London, I am now exploring and looking for a new opportunity to learn, help and talk software.</p> 
               <p>My interest in software and technology goes back to my adolescence when I created blogs online to keep track of my homework.</p>
-              <p>I graduated in finance in 2016 and worked in different roles in different cities and countries. Worked with numerous tech start-ups and met lots of programmers, entrepreneurs and doers. Talking and working with them made me realise my love for problem-solving and programming. So I decided to turn my passion into a career and left my role to focus on learning to code full-time. I have recently completed a 12-weeks Software Engineering  Bootcamp which has taken my skills to a professional level.</p>
+              <p>I graduated in finance in 2016 and worked in different roles in different cities and countries. Worked with numerous tech start-ups and met lots of programmers, entrepreneurs and doers. Talking and working with them made me realise my love for problem-solving and programming.</p>
+              <p> So I decided to turn my passion into a career and left my role to focus on learning to code full-time. I have recently completed a Software Engineering Bootcamp in General Assembly which has taken my skills to a professional level.</p>
               <p>But learning never stops...</p>
             </div>
           </div>
