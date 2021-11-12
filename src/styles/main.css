@@ -387,4 +387,14 @@
     #rightpic{
       display: none;
     }
+    .formemail{
+      width: 80%;
+      border-radius: 10px;
+      height: 40px;
+    }
+    .formtext{
+      width: 80%;
+      border-radius: 10px;
+      height: 90px;
+    }
   }
