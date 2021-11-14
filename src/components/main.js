@@ -3,6 +3,8 @@ import profilePic from '../Images/photo.jpg'
 import Skills from './skills'
 import project1 from '../Images/project1.gif'
 import project2 from '../Images/project2.gif'
+import project3 from '../Images/project3.gif'
+import project4 from '../Images/project4.gif'
 import { Icon } from '@iconify/react'
 import ContactForm from './contact'
 
@@ -163,6 +165,45 @@ const Main = () => {
                 </div>
               </div>
               <img id='rightpic' src={project2}/>
+            </div>
+          </div>
+        </div>
+        <div className='insection'>
+          <div className='generalwrapper'>
+            <h2 className='text-white mt-4' >FIRE ESPORTS</h2>
+            <div className='project'>
+              <img src={project3}/>
+              <div className='introproject'>
+                <p>A Esports website where you can watch, comment and like the most popular videos of your favourite Esport game and team.</p>
+                <div id='skillsused'>
+                  <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div><div>Express</div><div>NodeJS</div><div>MongoDB</div><div>Heroku</div>
+                </div> 
+                <div className='buttons'>
+                  <div><button className="btn btn-secondary"><a  target='_blank' rel='noreferrer'href='https://github.com/williamalvarez92/fireEsports'>REPO</a></button></div>
+                  <div className='p-2'></div>
+                  <div><button className="btn btn-warning "><a target='_blank' rel='noreferrer' href='https://fireesports.herokuapp.com/'>VISIT</a></button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='insection'>
+          <div className='generalwrapper'>
+            <h2 className='text-white mt-4' >HOSPITALITY HUB</h2>
+            <div className='project'>
+              <img id='leftpic' src={project4}/>
+              <div className='introproject'>
+                <p>Hospitality Hub is where employers and employees come to interact with each other. They can comment and rate their relationships as well as to post and apply for jobs.</p>
+                <div id='skillsused'>
+                  <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div><div>Python</div><div>Django</div><div>PostgreSQL</div><div>Heroku</div>
+                </div> 
+                <div className='buttons'>
+                  <div><button className="btn btn-secondary"><a  target='_blank' rel='noreferrer'href='https://github.com/williamalvarez92/hospitality-hub'>REPO</a></button></div>
+                  <div className='p-2'></div>
+                  <div><button className="btn btn-warning "><a target='_blank' rel='noreferrer' href='https://hhub-app.herokuapp.com/'>VISIT</a></button></div>
+                </div>
+              </div>
+              <img id='rightpic' src={project4}/>
             </div>
           </div>
         </div>
