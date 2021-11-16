@@ -292,12 +292,18 @@
 
   /* ------------------CONTACT -------------- */
 
-  .contact{
+  #contact{
     color: azure;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+.iconscontact svg {
+  margin: 3%;
+    width: 5%;
+    height: 5%
   }
 
   .formemail{
@@ -396,5 +402,10 @@
       width: 80%;
       border-radius: 10px;
       height: 90px;
+    }
+    .iconscontact svg {
+      margin: 6%;
+      width: 10%;
+      height: 10%
     }
   }
