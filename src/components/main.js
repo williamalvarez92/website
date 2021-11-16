@@ -118,6 +118,15 @@ const Main = () => {
             </div>
           </div>
         </div>
+        <div className='section' id='about'>
+          <div><h2 className='normal-text'>INTERESTS</h2></div>
+          <div className='generalwrapper'>
+            <div className='normal-text'>
+              <p>People consider me an open-minded person who enjoys a variety of cultures and environments and loves trying new things. I have travelled to many countries and lived in 5.</p>
+              <p> If I am not coding or learning new programming languages, then I am practising non-programming languages; Chinese and Japanese. Or playing video games, exploring the metaverse in VR or reading non-fiction.</p>
+            </div>
+          </div>
+        </div>
         <div className='skills'>
           <div><h2 className='normal-text'>SKILLS</h2></div>
           <div className='generalwrapper'>
@@ -135,7 +144,7 @@ const Main = () => {
             <div className='project'>
               <img src={project1}/>
               <div className='introproject'>
-                <p>Created the classic with JavaScript, CSS and HTML.</p>
+                <p>My first solo project. Created the classic with JavaScript, CSS and HTML. The website it a tribute to its creator Tomohiro Nishikado.</p>
                 <div id='skillsusedp1'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div>
                 </div> 
@@ -154,7 +163,7 @@ const Main = () => {
             <div className='project'>
               <img id='leftpic' src={project2}/>
               <div className='introproject'>
-                <p>The Cat encyclopedia, using a public API, React and Bootstrap.</p>
+                <p>A group project using a public API, React and Bootstrap: The Cat encyclopedia. In Catopedia you can find fact about your favourtie feline.</p>
                 <div id='skillsused'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div>
                 </div> 
@@ -174,7 +183,7 @@ const Main = () => {
             <div className='project'>
               <img src={project3}/>
               <div className='introproject'>
-                <p>A Esports website where you can watch, comment and like the most popular videos of your favourite Esport game and team.</p>
+                <p>A group project, creating a Restful API with NodeJS and MongoDB. In Fire Esports you can watch, comment and like the most popular videos of your favourite Esport game and team.</p>
                 <div id='skillsused'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div><div>Express</div><div>NodeJS</div><div>MongoDB</div><div>Heroku</div>
                 </div> 
@@ -193,7 +202,7 @@ const Main = () => {
             <div className='project'>
               <img id='leftpic' src={project4}/>
               <div className='introproject'>
-                <p>Hospitality Hub is where employers and employees come to interact with each other. They can comment and rate their relationships as well as to post and apply for jobs.</p>
+                <p>Another group project, creating a Restful API with Django and PostgreSQL. Hospitality Hub is where employers and employees come to interact with each other. They can comment and rate their relationships as well as to post and apply for jobs.</p>
                 <div id='skillsused'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div><div>Python</div><div>Django</div><div>PostgreSQL</div><div>Heroku</div>
                 </div> 
@@ -207,7 +216,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        
+
         <div className='section' id='contact'>
           <div><h2 className='normal-text'>CONTACT</h2></div>
           <div className='generalwrapper'>
