@@ -144,7 +144,7 @@ const Main = () => {
             <div className='project'>
               <img src={project1}/>
               <div className='introproject'>
-                <p>My first solo project. Created the classic with JavaScript, CSS and HTML. The website it a tribute to its creator Tomohiro Nishikado.</p>
+                <p>My first solo project. Created the classic with JavaScript, CSS and HTML. The website is a tribute to its creator Tomohiro Nishikado.</p>
                 <div id='skillsusedp1'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div>
                 </div> 
@@ -163,7 +163,7 @@ const Main = () => {
             <div className='project'>
               <img id='leftpic' src={project2}/>
               <div className='introproject'>
-                <p>A group project using a public API, React and Bootstrap: The Cat encyclopedia. In Catopedia you can find fact about your favourtie feline.</p>
+                <p>A group project using a public API, React and Bootstrap: The Cat encyclopedia. In Catopedia you can find facts about your favourtie feline.</p>
                 <div id='skillsused'>
                   <div>HTML</div><div>CSS</div><div>JavaScript</div><div>ReactJS</div><div>Bootstrap</div>
                 </div> 
