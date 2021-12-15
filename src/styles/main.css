@@ -155,7 +155,7 @@
   }
 
   .generalwrapper p{
-    color: azure;
+    color: azure, white;
     font-size: 20px ;
     display: flex;
     flex-direction: column;
@@ -376,6 +376,7 @@
     }
     .generalwrapper p{
       font-size: smaller;
+      color: azure, white;
     }
     .project{
       flex-direction: column;
