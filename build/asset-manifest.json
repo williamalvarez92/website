@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1a378cf5.chunk.css",
+    "main.js": "/static/js/main.886c727b.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.99041298.js",
+    "static/css/2.3328dbac.chunk.css": "/static/css/2.3328dbac.chunk.css",
+    "static/js/2.f939ae5e.chunk.js": "/static/js/2.f939ae5e.chunk.js",
+    "index.html": "/index.html",
+    "static/js/2.f939ae5e.chunk.js.LICENSE.txt": "/static/js/2.f939ae5e.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/static/media/stars.90c266f7.png",
+    "static/media/photo.a731b452.jpg": "/static/media/photo.a731b452.jpg",
+    "static/media/project1.a0030060.gif": "/static/media/project1.a0030060.gif",
+    "static/media/project2.88afb55f.gif": "/static/media/project2.88afb55f.gif",
+    "static/media/project3.4acecd18.gif": "/static/media/project3.4acecd18.gif",
+    "static/media/project4.2399596a.gif": "/static/media/project4.2399596a.gif",
+    "static/media/ubuntu.b7376136.svg": "/static/media/ubuntu.b7376136.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99041298.js",
+    "static/css/2.3328dbac.chunk.css",
+    "static/js/2.f939ae5e.chunk.js",
+    "static/css/main.1a378cf5.chunk.css",
+    "static/js/main.886c727b.chunk.js"
+  ]
+}
